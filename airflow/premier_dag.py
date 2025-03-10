@@ -1,6 +1,6 @@
 # https://airflow.apache.org/docs/apache-airflow/1.10.6/tutorial.html
 from airflow import DAG
-from airflow.operators.empty import EmptyOperator #EmptyOperator utilisé pour marquer le début et la fin du dag
+from airflow.operators.empty import EmptyOperator  #EmptyOperator utilisé pour marquer le début et la fin du dag
 from airflow.operators.python import PythonOperator
 from datetime import datetime, timedelta
 
